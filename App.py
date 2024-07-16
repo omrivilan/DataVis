@@ -79,7 +79,7 @@ fig_all_districts = px.line(
 )
 fig_all_districts.update_layout(
     yaxis_title=dict(
-        text="כמות התיקים",
+        text="כמות התיקים", standoff=100,
         font=dict(size=20)  # Increase the text size
     ), xaxis_title=dict(
         text="רבעון",
@@ -126,7 +126,7 @@ else:
     )
     fig.update_layout(
         yaxis_title=dict(
-            text="כמות התיקים",
+            text="כמות התיקים", standoff=100,
             font=dict(size=20)  # Increase the text size
         ), xaxis_title=dict(
             text="רבעון",
@@ -172,7 +172,7 @@ fig.update_layout(barmode='relative', bargap=0.2, xaxis_title=dict(
         text="אשכול כלכלי-חברתי",
         font=dict(size=20)  # Increase the text size
     ), yaxis_title=dict(
-        text="סכום התיקים המנורמל בגודל האוכלוסייה",
+        text="סכום התיקים המנורמל בגודל האוכלוסייה", standoff=100,
         font=dict(size=20)  # Increase the text size
     ),
                   legend_title=dict(
