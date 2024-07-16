@@ -25,6 +25,16 @@ data = pd.read_csv(grouped_data_by_cluster)
 preprocessed_data = os.path.join(os.path.dirname(__file__), 'preprocessed_data.csv')
 df = pd.read_csv(preprocessed_data)
 
+st.markdown("""<style>
+        html {
+            direction: RTL;
+            text-align: right;
+        }
+        h1, h2, h3, h4, h5 {
+            text-align: right;
+        }
+    </style>""", unsafe_allow_html=True)
+
 # Custom CSS to set text direction to right-to-left
 st.markdown(
     """
