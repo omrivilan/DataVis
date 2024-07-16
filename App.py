@@ -273,7 +273,7 @@ def plot_relative_crime_by_religion_and_group(df, data, selected_group):
                       legend_title=dict(font=dict(size=20, color="white")),
                       yaxis_title=dict(
                           font=dict(size=20, color="white"),  # Increase the text size
-                          standoff=100
+                          standoff=200
                       ),
                       yaxis=dict(
                           autorange='reversed'  # Reverse the y-axis order
