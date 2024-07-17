@@ -79,10 +79,10 @@ fig_all_districts = px.line(
 )
 fig_all_districts.update_layout(
     yaxis_title=dict(
-        text="כמות התיקים", standoff=100,
+        text="כמות התיקים", 
         font=dict(size=20)  # Increase the text size
     ), xaxis_title=dict(
-        text="רבעון",
+        text="רבעון", standoff=100,
         font=dict(size=20)  # Increase the text size
     ), title_x=0.75, legend_title=dict(
         text="מחוז משטרה",
