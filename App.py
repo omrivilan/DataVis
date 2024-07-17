@@ -62,9 +62,9 @@ st.markdown('''
 </h3>
 ''', unsafe_allow_html=True)
 st.markdown('''
-<div class="rtl-text">
+<h5 class="rtl-text">
 בחר את מחוז המשטרה:
-</div>
+</h5>
 ''', unsafe_allow_html=True)
 
 
@@ -153,6 +153,12 @@ else:
 
 # Assuming 'data' is your DataFrame
 all_crime_groups = data['StatisticCrimeGroup'].unique()
+
+st.markdown('''
+<h5 class="rtl-text">
+בחר את קבוצות הפשיעה:
+</h5>
+''', unsafe_allow_html=True)
 
 selected_groups = st.multiselect("בחר את קבוצות הפשיעה", all_crime_groups, default=all_crime_groups, label_visibility="hidden")
 
