@@ -187,7 +187,7 @@ fig.update_layout(barmode='relative', bargap=0.2, xaxis_title=dict(
                   legend_title=dict(
         text="קבוצת העבירות",
         font=dict(size=20)  # Increase the text size
-    ), title_x=0.5, height=650,hoverlabel=dict(font_size=20),
+    ), title_x=0.6, height=650,hoverlabel=dict(font_size=20),
     legend=dict(font=dict(size=15)))
 fig.update_traces(
     hovertemplate='קבוצת העבירה=%{fullData.name}<br>סכום התיקים המנורמל=%{y:,}'
